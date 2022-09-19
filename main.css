@@ -57,6 +57,7 @@ button{
     color:#fff;
     padding:10px 40px;
     border-radius:10px;
+    border:none;
 }
 
 /*information*/
@@ -102,7 +103,7 @@ button{
 }
 
 #quote .text {
-    padding:50px 150px;
+    padding:50px 180px;
     font-size:36px;
     color: #1f2937;
 } 
@@ -114,10 +115,43 @@ button{
 }
 
 #call-to-action{
+    height:150px;
+    display: flex;
+    align-items: space-between;
+    text-align:center;
+    gap:200px;
+    margin:100px;
+    background-color: #3882F6;
+    color:#fff;
+    padding:50px;
+    border-radius: 10px;
 
+}
+
+#call-to-action button{
+    width:140px;
+    height:40px;
+    border: 1px solid #fff;
+    border-radius:10px;
+
+}
+
+#call-to-action .text {
+    text-align:left;
+}
+
+#call-to-action .small-text {
+    opacity: 0.5;
 }
 #footer {
-    background-color:#F2937;
+    background-color:#1F2937;
+    height:100px;
+    width:100%;
 
 }
 
+#footer .text {
+    color:#fff;
+    text-align: center;
+    padding:40px;
+}
