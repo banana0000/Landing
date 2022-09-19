@@ -1,0 +1,123 @@
+* {
+    padding:0;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+/*header*/
+#header {
+    height:450px;
+    background-color:#1F2937;
+    padding: 20px 100px;
+}
+
+nav a {
+    font-size:18px;
+    color:#E5E7EB;
+    padding:10px;
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+nav a {
+    text-decoration:none;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:700;
+    padding:10px 0;
+}
+
+.awesome {
+    font-size: 18px;
+    color: #f9faf8;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.awesome img {
+    padding: 20px 0;
+    width:400px;
+}
+
+.logo img {
+    height:50px;
+    width:50px;
+}
+
+button{
+    background: #3882F6;
+    color:#fff;
+    padding:10px 40px;
+    border-radius:10px;
+}
+
+/*information*/
+
+#information {
+    height:300px;
+}
+
+#information h1{
+    font-size:36px;
+    color: #1f2937;
+    text-align: center;
+    padding:50px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    gap:50px;
+
+}
+
+.container img  {
+    height:200px;
+    width:200px;
+    border-radius:10px;
+}
+
+.container figcaption {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+#quote {
+    height:300px;
+    background:#e5e7eb;
+    color:#1f2937;
+    margin-top:150px;
+}
+
+#quote .text {
+    padding:50px 150px;
+    font-size:36px;
+    color: #1f2937;
+} 
+
+#quote h2 {
+    text-align:right;
+    font-size:16px;
+    padding-top: 10px;
+}
+
+#call-to-action{
+
+}
+#footer {
+    background-color:#F2937;
+
+}
+
